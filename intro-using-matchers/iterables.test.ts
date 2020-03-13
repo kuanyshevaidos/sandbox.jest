@@ -11,7 +11,5 @@ const countriesToVisitList = [
 
 test('the "countries to visit" list has Belarus and Poland in there', () => {
     expect(countriesToVisitList).toContain('Belarus');
-    // TODO: Fix TS2583. But for now
-    // @ts-ignore
     expect(new Set(countriesToVisitList)).toContain('Poland');
 });
