@@ -1,7 +1,6 @@
 {
   "name": "sandbox.jest",
   "version": "0.0.1",
-  "main": "index.js",
   "repository": "https://github.com/kuanyshevaidos/sandbox.jest.git",
   "author": "Aidos Kuanyshev",
   "license": "Unlicense",
