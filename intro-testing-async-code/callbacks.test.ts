@@ -16,7 +16,7 @@ test('callbacks, bad practice: the data is "some data"', () => {
 // How to use callbacks ?
 // 3.. 2.. 1...
 test('callbacks, good practice: the data is "some data"', done => {
-    function callback(data) {
+    function callback(data: string) {
         try {
             expect(data).toBe('some data');
             done();
